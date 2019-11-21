@@ -264,6 +264,5 @@ module.exports = env => {
       }
     }
   }
-  console.log(webpackConfig)
   return webpackConfig
 }
