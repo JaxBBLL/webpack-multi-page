@@ -184,6 +184,7 @@ module.exports = env => {
           use: {
             loader: 'url-loader',
             options: {
+              esModule: false,
               limit: 8192,
               // [path][name].[ext] path是绝对路径
               name: isDev ? '[path][name].[ext]' : 'assets/' + getName(env) + '.[ext]',
